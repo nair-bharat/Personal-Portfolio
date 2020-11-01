@@ -1,6 +1,6 @@
 .btn {
     
-    background-color: #4CAF50; /* Green */
+    background-color: #4dff4d; /* Green */
     border: none;
     border-radius: 12px;
     color: white;
@@ -11,6 +11,51 @@
     font-size: 12px;
     margin: 4px 2px;
   }
+
+  .btn1 {
+    
+    background-color: #ff471a; /* Green */
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+  }
+
+  .btn2 {
+    
+    background-color: #80ffff; /* Green */
+    border: none;
+    border-radius: 12px;
+    color: #99003d;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+  }
+
+  .btn3 {
+    
+    background-color: #ffff66; /* Green */
+    border: none;
+    border-radius: 12px;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+  }
+
+
+
   /*3b1926 */
 
   h1{
@@ -43,6 +88,58 @@
   .profile-img{
 
     border-radius: 50%;
+    height: 200;
+    width: 200;
+  }
+
+  img{
+
+    border-radius: 50%;
   }
   
   body {background-color:#ffffff;} 
+
+
+  /* fa attributes */
+
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10%;
+  }
+  
+  .fa:hover {
+    opacity: 0.5;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+
+    background: #b8b894;
+    font-size:24px;
+    color: white;
+  }
+
+  .fa-hackerrank {
+
+    font-size: 24px;
+    color: white;
+  }

@@ -38,12 +38,14 @@
     div.header_text {
       font-size: 20px;
     }
-    
+
   }
   
   @media screen and (max-width: 600px) {
     div.header_text {
       font-size: 15px;
+
+      
     }
   }
   h1{

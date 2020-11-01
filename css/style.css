@@ -1,4 +1,4 @@
-.btn {
+.btn, .btn1, .btn2, .btn3 {
     
     background-color: #4dff4d; /* Green */
     border: none;
@@ -14,44 +14,20 @@
 
   .btn1 {
     
-    background-color: #ff471a; /* Green */
-    border: none;
-    border-radius: 12px;
+    background-color: #ff471a;
     color: white;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    margin: 4px 2px;
   }
 
   .btn2 {
     
-    background-color: #80ffff; /* Green */
-    border: none;
-    border-radius: 12px;
+    background-color: #80ffff; 
     color: #99003d;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    margin: 4px 2px;
   }
 
   .btn3 {
     
-    background-color: #ffff66; /* Green */
-    border: none;
-    border-radius: 12px;
+    background-color: #ffff66;
     color: black;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    margin: 4px 2px;
   }
 
 

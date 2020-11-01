@@ -1,6 +1,6 @@
 .btn, .btn1, .btn2, .btn3 {
     
-    background-color: #4dff4d; /* Green */
+    background-color: green; /* Green */
     border: none;
     border-radius: 12px;
     color: white;
@@ -73,7 +73,12 @@
     border-radius: 50%;
   }
   
-  body {background-color:#ffffff;} 
+  body {
+      
+    background-color:#ffffff;
+    font: 'Reem Kufi', sans-serif;
+
+} 
 
 
   /* fa attributes */

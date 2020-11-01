@@ -34,14 +34,26 @@
 
   /*3b1926 */
 
+  @media screen and (min-width: 601px) {
+    div.header_text {
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    div.header_text {
+      font-size: 15px;
+    }
+  }
   h1{
 
-      animation: type 2s steps(20);
+      animation: type 1s steps(19);
       overflow: hidden;
       white-space: nowrap;
-      font-family: Arial, Helvetica, sans-serif;
-      border-right: 4px solid black;
-      width: 20ch;
+      font-family: Reem Kufi, sans-serif;
+      border-right: 50% solid black;
+      color: #cc00ff;
+      width: 18ch;
   }
   @keyframes type {
 
@@ -52,7 +64,7 @@
 
     100% {
 
-        width: 20ch;
+        width: 18ch;
     }
   }
 
@@ -114,13 +126,6 @@
 
 .fa-github {
 
-    background: #b8b894;
-    font-size:24px;
-    color: white;
-  }
-
-  .fa-hackerrank {
-
-    font-size: 24px;
-    color: white;
+    font-size:36px;
+    color: black;
   }

@@ -34,5 +34,15 @@
         width: 20ch;
     }
   }
+
+  .container {
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .profile-img{
+
+    border-radius: 50%;
+  }
   
   body {background-color:#ffffff;} 

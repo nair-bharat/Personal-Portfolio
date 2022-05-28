@@ -1,9 +1,8 @@
 
-
 /* -----------------header text styling----------------- */
 
 .text-container {
-  align: center;
+  margin-bottom: 3vw;
 }
 .wrapper{
   display: flex;
@@ -11,15 +10,15 @@
 
 .wrapper .static-txt{
   color: black;
-  font-size: 6.5vh;
+  font-size: 4.3vw;
   font-weight: 900;
 
 }
 
 .wrapper .dynamic-txts{
-  margin-left: 0vh;
-  height: 7vh;
-  line-height: 7.4vh;
+  margin-left: 0vw;
+  height: 4.8vw;
+  line-height: 5vw;
   overflow: hidden;
   text-align: center;
 }
@@ -27,7 +26,7 @@
 .dynamic-txts li{
   list-style: none;
   color: blue;
-  font-size: 6.5vh;
+  font-size: 4.3vw;
   font-weight: 900;
   position: relative;
   top: 0;
@@ -36,32 +35,32 @@
 
 @keyframes slide {
   100%{
-    top: -30vh;
+    top: -20vw;
   }
 }
 .dynamic-txts li span{
   position: relative;
-  margin: 0vh 0;
-  line-height: 6.5vh;
+  margin: 0vw 25vw;
+  line-height: 4.9vw;
 }
 
 .dynamic-txts li span::after{
   content: "";
   position: absolute;
-  left: 0;
+  left: 0vw;
   height: 100%;
   width: 100%;
   background: white;
-  border-left: 0.25vh solid blue;
+  border-left: 0.2vw solid black;
   animation: typing 3s steps(12) infinite;
 }
 @keyframes typing {
 
   40%, 60%{
-    left: calc(100% + 0vh);
+    left: calc(100% + 0vw);
   }
   100%{
-    left: 0;
+    left: 0vw;
   }
 }
 
@@ -112,7 +111,7 @@
 
 .fa {
     padding: 1vw;
-    font-size: 5vh;
+    font-size: 2vw;
     width: 2vw;
     text-align: center;
     text-decoration: none;
@@ -168,7 +167,7 @@
 .ml10 {
   position: relative;
   font-weight: 900;
-  font-size: 6vh;
+  font-size: 4.8vw;
 }
 
 .ml10 .text-wrapper {

@@ -25,3 +25,10 @@ const Header = () => {
 };
 
 export default Header;
+
+
+{/* <h1 className="ml10">
+                <span className="text-wrapper">
+                    <span className="letters">Hey, there! I am <span className="letters_name">Bharat Nair</span></span>
+                </span>
+            </h1> */}

@@ -1,5 +1,6 @@
 import profile from '../images/pandas.png'
 import '../resources/style.css'
+import profile_pic from '../images/profile_pic.jpeg'
 
 
 const Header = () => {
@@ -7,23 +8,11 @@ const Header = () => {
     return (
         <div className="container-box">
             <div className='image-container'>
-                <img className='profile-img' src={profile} alt="profile" />
+                <img className="image-shadow" src={profile_pic} width={130} height={210} alt="profile" />
             </div>
-            <h1 className="ml10">
-                <span className="text-wrapper">
-                    <span className="letters">Hey, there!</span>
-                    <div className="text-container">
-                        <div className="wrapper">
-                                <ul className="dynamic-txts">
-                                    <li><span>I am Bharat Nair</span></li>
-                                    <li><span>I am a Developer</span></li>
-                                    <li><span>I am Bharat Nair</span></li>
-                                    <li><span>I am a Developer</span></li>
-                                </ul>
-                        </div>
-                    </div>
-                </span>
-            </h1> 
+            <div>
+                <h1>Hi there, I am <span class="text_name">Bharat Nair</span></h1>
+            </div>
         </div>
     );
 };

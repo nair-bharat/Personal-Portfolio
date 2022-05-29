@@ -19,7 +19,7 @@ const Footer = () => {
                 </h2>
             </div>
             <div className="footer-bottom">
-                <h6>&copy;{new Date().getFullYear()} No rights reserved, feel free to copy</h6>
+                <h6>This website is still work in progress... Expect more content and updates!</h6>
             </div>
         </div>
     );

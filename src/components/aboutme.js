@@ -1,5 +1,4 @@
 import '../resources/style.css'
-import profile_pic from '../images/profile_pic.jpeg'
 import OutlinedButtons from './button';
 
 const AboutMe = () => {

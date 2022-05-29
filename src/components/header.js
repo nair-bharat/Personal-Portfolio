@@ -1,4 +1,3 @@
-import profile from '../images/pandas.png'
 import '../resources/style.css'
 import profile_pic from '../images/profile_pic.jpeg'
 

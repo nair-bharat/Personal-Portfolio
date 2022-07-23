@@ -4,6 +4,7 @@ import AboutMe from './components/aboutme.js'
 import Skills from './components/skills.js'
 import Footer from './components/footer.js'
 import './resources/style.css'
+import Project from './components/projects.js';
 
 const App = () => (
   <div>
@@ -11,6 +12,7 @@ const App = () => (
       <Header />
       <AboutMe />
       <Skills />
+      <Project/>
     </div>
     <Footer />
   </div>

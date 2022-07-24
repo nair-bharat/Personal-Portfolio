@@ -217,7 +217,26 @@
   background: blue;
 }
 
+
 /* -------------- about me content -------------- */
+
+
+.aboutme-section {
+  text-align: center;
+  font-family: Sora;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.aboutme-container {
+  text-align: center;
+  font-family: Sora;
+  padding: 1.5%;
+}
+
+.aboutme-resume {
+  text-align: center;
+}
 
 .about-container {
   display: flex;
@@ -226,8 +245,24 @@
   text-align: center;
 }
 
+
+.aboutme-italic-desc {
+  font-family: Sora;
+  font-style: italic;
+  padding: 4vh;
+  font-size: 2.5vh;
+}
+
+.aboutme-italic-intro {
+  font-family: Sora;
+  padding: 4vh;
+  font-size: 2.5vh;
+  color: white;
+  background-color: blue;
+  font-style: italic;
+}
+
 .flex-about1 {
-  background-color: #f1f1f1;
   padding: 10px;
   flex: 70%;
 }
@@ -241,6 +276,9 @@
     flex-direction: column;
   }
 }
+
+
+/* -------------- end of about me content -------------- */
 
 .column {
   float: left;
@@ -317,23 +355,32 @@
 
 ---------------Project section------------ */
 
+.project-section {
+  text-align: center;
+  font-family: Sora;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 3.5%;
+}
+
 .project-container {
   display: flex;
   flex-direction: row;
-  font-size: 30px;
+  font-size: 2vh;
   text-align: center;
 }
 
-.flex-project1 {
-  background-color: #f1f1f1;
-  padding: 10px;
-  flex: 50%;
+.flex-project {
+  flex: 25%;
+  height: 55vh;
+  margin: 1.75vh;
+  border: 2px solid blue;
+  padding: 2.5vh;
 }
 
-.flex-project2 {
-  background-color: dodgerblue;
-  padding: 10px;
-  flex: 50%;
+.flex-project-intro {
+  padding-top: 2.5%;
+  padding-bottom: 5%;
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
@@ -342,3 +389,10 @@
     flex-direction: column;
   }
 }
+
+span + span {
+  margin-left: 25px;
+}
+
+
+/* end of Project section */

@@ -1,25 +1,49 @@
-import OutlinedButtons from './button';
+import {Project1Link, Project1Repo} from './button';
 import azure_devops from '../images/azure_devops.png';
 
 const Project = () => {
 
     return(
-        <div>
+        <div className='project-section'>
             <div>
-                <h1>Projects</h1>
+                <h1>PROJECTS</h1>
             </div>
-            <div class="project-container">
-                <div class="flex-project1">
-                    <img src={azure_devops} width={400} height={200} alt="cpp" className="skills_img_icons" /><br/>
-                    Technology plays an increasingly vital role in people's lives nowadays; with just a single click or tap, we can do tasks that were previously impossible. I am an aspiring Software Developer with a keen interest in software development in general. I'm now studying Javascript, Amazon Web Services, React, and MongoDB.
-                    <br />
-                    <OutlinedButtons /><OutlinedButtons />
+            <div className="project-container">
+                <div className="flex-project">
+                    <div>
+                        <img src={azure_devops} width={250} height={175} alt="cpp" className="skills_img_icons" />
+                    </div>
+                    <div className='flex-project-intro'>
+                        Technology plays an increasingly vital role in people's lives nowadays; with just a single click or tap, we can do tasks that were previously impossible. I am an aspiring Software Developer with a keen interest in software development in general. I'm now studying Javascript, Amazon Web Services, React, and MongoDB.
+                    </div>
+                    <div>
+                        <span><Project1Link /></span>
+                        <span><Project1Repo /></span> 
+                    </div>
                 </div>
-                <div class="flex-project2">
-                    <img src={azure_devops} width={400} height={200} alt="cpp" className="skills_img_icons" /><br/>
-                    Technology plays an increasingly vital role in people's lives nowadays; with just a single click or tap, we can do tasks that were previously impossible. I am an aspiring Software Developer with a keen interest in software development in general. I'm now studying Javascript, Amazon Web Services, React, and MongoDB.
-                    <br />
-                    <OutlinedButtons /><OutlinedButtons />
+                <div className="flex-project">
+                    <div>
+                        <img src={azure_devops} width={250} height={175} alt="cpp" className="skills_img_icons" />
+                    </div>
+                    <div className='flex-project-intro'>
+                        Technology plays an increasingly vital role in people's lives nowadays; with just a single click or tap, we can do tasks that were previously impossible. I am an aspiring Software Developer with a keen interest in software development in general. I'm now studying Javascript, Amazon Web Services, React, and MongoDB.
+                    </div>
+                    <div>
+                        <span><Project1Link /></span>
+                        <span><Project1Repo /></span> 
+                    </div>
+                </div>
+                <div className="flex-project">
+                    <div>
+                        <img src={azure_devops} width={250} height={175} alt="cpp" className="skills_img_icons" />
+                    </div>
+                    <div className='flex-project-intro'>
+                        Technology plays an increasingly vital role in people's lives nowadays; with just a single click or tap, we can do tasks that were previously impossible. I am an aspiring Software Developer with a keen interest in software development in general. I'm now studying Javascript, Amazon Web Services, React, and MongoDB.
+                    </div>
+                    <div>
+                        <span><Project1Link /></span>
+                        <span><Project1Repo /></span> 
+                    </div>
                 </div>
             </div>
         </div>

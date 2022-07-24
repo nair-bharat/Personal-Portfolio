@@ -8,3 +8,19 @@ export default function OutlinedButtons() {
     </Button>
   );
 }
+
+export const Project1Link = () => {
+  return (
+    <Button variant="outlined" href="https://google.com">
+        Link
+    </Button>
+  );
+}
+
+export const Project1Repo = () => {
+  return (
+    <Button variant="outlined" href="https://facebook.com">
+        GITHUB
+    </Button>
+  );
+}

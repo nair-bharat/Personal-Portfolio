@@ -86,10 +86,10 @@
     text-align: justify;
 }
 
-.image-container {
+/* .image-container {
     padding : 2vw;
     padding-top: 5vw;
-}
+} */
 
 .profile-img {
   border-radius: 50%;
@@ -219,6 +219,29 @@
 
 /* -------------- about me content -------------- */
 
+.about-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-about1 {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 70%;
+}
+
+.flex-about2 {
+  flex: 30%;
+}
+
+@media (max-width: 800px) {
+  .about-container {
+    flex-direction: column;
+  }
+}
+
 .column {
   float: left;
   width: 40%;
@@ -237,11 +260,11 @@
   font-size: larger;
 }
 
-.image-shadow {
+/* .image-shadow {
   border: 1px solid;
   padding: 0.5vw;
   box-shadow: 0.5vw 0.5vw #DCDCDC;
-}
+} */
 
 .content-box {
   font-size: large;
@@ -255,22 +278,22 @@
   }
 }
 
+/* -------------- header content -------------- */
 
 .header-container {
   display: flex;
   flex-direction: row;
-  font-size: 30px;
   text-align: center;
 }
 
 .flex-header1 {
   background-color: #f1f1f1;
   padding: 10px;
-  flex: 50%;
+  flex: 30%;
 }
 
 .flex-header2 {
-  flex: 50%;
+  flex: 70%;
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
@@ -278,6 +301,11 @@
   .header-container {
     flex-direction: column;
   }
+}
+
+.image-prop {
+  border-radius: 50%;
+  border-style:  solid;
 }
 
 /* 

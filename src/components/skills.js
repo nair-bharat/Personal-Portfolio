@@ -11,22 +11,22 @@ const Skills = () => {
 
     return(
 
-        <div className="container-box">
-            <h1>Skills</h1>
+        <div className="skills-container">
+            <h1>SKILLS</h1>
             <div className="skills_icons">
-                <div>
+                <div className='skills_icons-child'>
                     <img src={cpp_icon} width={75} height={75} alt="cpp" className="skills_img_icons" />
                 </div>
-                <div>
+                <div className='skills_icons-child-temp'>
                     <img src={c_icon} width={75} height={75} alt="c_icon" className="skills_img_icons" />
                 </div>
-                <div>
+                <div className='skills_icons-child'>
                     <img src={git_icon} width={150} height={75} alt="git_icon" className="skills_img_icons" />
                 </div>
-                <div>
+                <div className='skills_icons-child-temp'>
                     <img src={js_icon} width={60} height={75} alt="js_icon" className="skills_img_icons" />
                 </div>
-                <div>
+                <div className='skills_icons-child'>
                     <img src={react_icon} width={75} height={75} alt="react_icon" className="skills_img_icons" />
                 </div>
             </div>

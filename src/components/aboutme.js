@@ -22,7 +22,7 @@ const AboutMe = () => {
                     </div>
                 </div>
                 <div className='flex-about2'>
-                    <img src={temp_IMG} width={300} height={500} alt="cpp" className="temporary_IMAGE" />
+                    <img src={temp_IMG} width="225px" height="450px" alt="cpp" className="temporary_IMAGE" />
                 </div>
             </div>
         </div>

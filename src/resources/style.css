@@ -72,14 +72,6 @@
     font-family: Sora;
 }
 
-.footer-bottom {
-  margin-top: 3vw;
-  padding: 1vw;
-  text-align: center;
-  color: white;
-  background: blue;
-}
-
 .container-box-child {
     padding-left: 20vw;
     padding-right: 20vw;
@@ -391,8 +383,25 @@
 }
 
 span + span {
-  margin-left: 25px;
+  margin-left: 2vh;
 }
 
-
 /* end of Project section */
+
+
+/* Footer section */
+
+.footer-container {
+  text-align: center;
+  font-family: Sora;
+}
+
+.footer-msg {
+  margin-top: 5vh;
+  padding: 2vh;
+  text-align: center;
+  color: white;
+  background: blue;
+}
+
+/* end of footer section */

@@ -4,8 +4,8 @@ const Footer = () => {
 
     return(
         <div>
-            <div className="container-box">
-                <h1>Contact</h1>
+            <div className="footer-container">
+                <h1>CONTACT</h1>
                 <h2>
                     <div id="left">
                         <a href = "https://github.com/nair-bharat" className="fa fa-github"> </a>
@@ -18,7 +18,7 @@ const Footer = () => {
                     </div>
                 </h2>
             </div>
-            <div className="footer-bottom">
+            <div className="footer-msg">
                 <h6>This website is still work in progress... Expect more content and updates!</h6>
             </div>
         </div>

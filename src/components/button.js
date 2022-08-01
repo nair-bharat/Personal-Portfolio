@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 
 export default function OutlinedButtons() {
   return (
-    <Button variant="outlined" href="https://drive.google.com/file/d/1EqwvxeQvWH0P5Rn8az11-foLUy0kzQYQ/view?usp=sharing">
+    <Button variant="outlined" href="https://drive.google.com/file/d/1rVl1J7dY_arJOkFXNfzfE8p1u1JdfC30/view?usp=sharing">
         Resume
     </Button>
   );
@@ -11,7 +11,7 @@ export default function OutlinedButtons() {
 
 export const Project1Link = () => {
   return (
-    <Button variant="outlined" href="https://google.com">
+    <Button variant="outlined" href="https://thefurniturehub.netlify.app/">
         Link
     </Button>
   );
@@ -19,8 +19,41 @@ export const Project1Link = () => {
 
 export const Project1Repo = () => {
   return (
-    <Button variant="outlined" href="https://facebook.com">
+    <Button variant="outlined" href="https://github.com/nair-bharat/Shopping-Cart-usingJS">
         GITHUB
     </Button>
   );
 }
+
+export const Project2Link = () => {
+  return (
+    <Button variant="outlined" href="#">
+        Link
+    </Button>
+  );
+}
+
+export const Project2Repo = () => {
+  return (
+    <Button variant="outlined" href="https://github.com/nair-bharat/JavaScript-Calculator">
+        GITHUB
+    </Button>
+  );
+}
+
+export const Project3Link = () => {
+  return (
+    <Button variant="outlined" href="#">
+        Link
+    </Button>
+  );
+}
+
+export const Project3Repo = () => {
+  return (
+    <Button variant="outlined" href="https://github.com/nair-bharat/Analog-Clock-using-Vanilla-JS">
+        GITHUB
+    </Button>
+  );
+}
+

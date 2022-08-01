@@ -2,9 +2,6 @@
 
 /* -----------------header text styling----------------- */
 
-.text-container {
-  align: center;
-}
 .wrapper{
   display: flex;
 }
@@ -398,6 +395,9 @@ span + span {
     color: black;
 }
 
+.fa-python {
+  background-color: black;
+}
 /* end of Social Media section */
 
 /* Footer section */

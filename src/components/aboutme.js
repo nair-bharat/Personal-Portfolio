@@ -7,7 +7,7 @@ const AboutMe = () => {
     return(
         <div className='aboutme-section'>
             <div className='aboutme-container'>
-                <h1>ABOUT ME</h1>
+                <h2>ABOUT ME</h2>
             </div>
             <div className='aboutme-resume'>
                 <OutlinedButtons/>

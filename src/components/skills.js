@@ -12,7 +12,7 @@ const Skills = () => {
     return(
 
         <div className="skills-container">
-            <h1>SKILLS</h1>
+            <h2>SKILLS</h2>
             <div className="skills_icons">
                 <div className='skills_icons-child'>
                     <img src={cpp_icon} width={75} height={75} alt="cpp" className="skills_img_icons" />

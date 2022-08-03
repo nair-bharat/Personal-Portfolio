@@ -1,3 +1,5 @@
+import React from 'react';
+
 import cpp_icon from '../images/cpp_icon2.png';
 import git_icon from '../images/git_icon.png';
 import c_icon from '../images/c_icon.png';

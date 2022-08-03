@@ -22,12 +22,12 @@ body{
 
 .profile-img {
   border-radius: 50%;
-  border: 0.5vw solid #0066b2;
+  border: 0.5vw solid #3573a3;
 }
 
 
 .letters_name {
-    color: #0066b2;
+    color: #3573a3;
   }
 
 
@@ -73,7 +73,7 @@ body{
   display: flex;
   flex-direction: row;
   text-align: center;
-  background-color: #0066b2;
+  background-color: #3573a3;
   padding-left: 10%;
   padding-right: 10%;
   margin-top: 5%;
@@ -82,12 +82,21 @@ body{
 }
 
 .flex-header-img {
-  padding: 10px;
-  flex: 30%;
+  padding: 2.5%;
 }
 
 .flex-header-desc {
+  font-size: 5vh;
+  font-weight: bold;
+  padding-top: 5%;
+}
+
+.flex-header-desc__intro {
   flex: 100%;
+  font-size: 3vh;
+  font-weight: 400;
+  color: rgb(209, 208, 208);
+  padding: 1.5%;
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
@@ -100,6 +109,7 @@ body{
 .image-prop {
   border-radius: 50%;
   border-style:  solid;
+  float: right;
 }
 
 /* end of header section */
@@ -144,7 +154,7 @@ body{
   padding: 4vh;
   font-size: 2.5vh;
   color: white;
-  background-color: #0066b2;
+  background-color: #3573a3;
   font-style: italic;
 }
 
@@ -212,7 +222,7 @@ body{
 }
 
 .skills_icons-child {
-  background: #0066b2;
+  background: #3573a3;
 }
 
 .skills_icons-child-temp {
@@ -261,7 +271,7 @@ body{
   flex: 25%;
   height: 50vh;
   margin: 1.75vh;
-  border: 2px solid #0066b2;
+  border: 2px solid #3573a3;
   padding: 2.5vh;
 }
 
@@ -357,7 +367,7 @@ span + span {
   padding: 2vh;
   text-align: center;
   color: white;
-  background: #0066b2;
+  background: #3573a3;
 }
 
 @media (max-width: 952px) {
@@ -380,7 +390,7 @@ span + span {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #0066b2;
+  background: #3573a3;
 }
 
 /* end of scrollbar */

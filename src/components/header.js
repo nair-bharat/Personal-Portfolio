@@ -1,5 +1,8 @@
+import React from 'react';
+
 import '../resources/style.css'
 import pandas from '../images/pandas.png'
+import Intro from './intro';
 
 const Header = () => {
 
@@ -10,11 +13,7 @@ const Header = () => {
                     <img className="image-prop" src={pandas} width={200} height={200} alt="profile" />
                 </div>
             </div>
-                <div className="flex-header-desc">
-                    <div>
-                        <h1>Hi there, <br/> I am <span className="text_name">Bharat Nair</span></h1>
-                    </div>
-                </div>
+            <Intro />
         </div>
     );
 };

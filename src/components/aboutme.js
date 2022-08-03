@@ -1,3 +1,5 @@
+import React from 'react';
+
 import OutlinedButtons from './button';
 import temp_IMG from '../images/tempImg.jpg';
 import '../resources/style.css';

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import {Project1Link, Project1Repo, Project2Link, Project2Repo, Project3Link, Project3Repo} from './button';
 import PROJECT_1 from '../images/projects/PROJECT_1.png';
 import PROJECT_2 from '../images/projects/PROJECT_2.png';

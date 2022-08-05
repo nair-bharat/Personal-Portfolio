@@ -93,7 +93,7 @@ body{
 .image-prop {
   border-radius: 50%;
   border-style:  solid;
-  float: right;
+  float: none;
 }
 
 /* end of header & intro section */

@@ -11,3 +11,420 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-box {
+    text-align: center;
+    font-family: Sora;
+}
+
+.container-box-child {
+    padding-left: 20vw;
+    padding-right: 20vw;
+    text-align: justify;
+}
+
+.profile-img {
+  border-radius: 50%;
+  border: 0.5vw solid #3573a3;
+}
+
+
+.letters_name {
+    color: #3573a3;
+  }
+
+
+/* -------------- header & intro section -------------- */
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: #3573a3;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 5%;
+  font-size: 2.5vh;
+  color: white;
+}
+
+.flex-header-img {
+  padding: 2.5%;
+}
+
+.flex-header-desc {
+  font-size: 5vh;
+  padding-top: 5%;
+  color: rgb(209, 208, 208);
+}
+
+.flex-header-desc__name {
+  font-size: 5vh;
+  font-weight: bold;
+  padding-top: 5%;
+}
+
+.flex-header-desc__intro {
+  flex: 100%;
+  font-size: 3vh;
+  font-weight: 400;
+  color: rgb(209, 208, 208);
+  padding: 1.5%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 952px) {
+  .header-container {
+    flex-direction: column;
+    padding-bottom: 1.25vh;
+  }
+}
+
+.image-prop {
+  border-radius: 50%;
+  border-style:  solid;
+  float: none;
+}
+
+/* end of header & intro section */
+
+
+/* -------------- about me content -------------- */
+
+.aboutme-section {
+  text-align: center;
+  font-family: Sora;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3.5%;
+}
+
+.skills__heading-container {
+  text-align: center;
+  font-family: Sora;
+  padding: 1.5%;
+  font-size: 3vh;
+  font-weight: bold;
+  color: #3573a3;
+}
+
+
+.aboutme-container {
+  text-align: center;
+  font-family: Sora;
+  padding: 1.5%;
+  font-size: 3vh;
+  font-weight: bold;
+  color: #3573a3;
+}
+
+.aboutme-resume {
+  text-align: center;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.aboutme-italic-desc {
+  font-family: Sora;
+  font-style: italic;
+  padding: 4vh;
+  font-size: 2.5vh;
+}
+
+.aboutme-italic-intro {
+  font-family: Sora;
+  padding: 4vh;
+  font-size: 2.5vh;
+  color: rgb(209, 208, 208);
+  background-color: #3573a3;
+  font-style: italic;
+}
+
+.flex-about1 {
+  padding: 10px;
+  flex: 70%;
+}
+
+.flex-about2 {
+  flex: 30%;
+}
+
+@media (max-width: 952px) {
+  .about-container {
+    flex-direction: column;
+  }
+}
+
+/* -------------- end of about me content -------------- */
+
+
+/* -------skills section----------- */
+.skills-container {
+  text-align: center;
+  font-family: Sora;
+}
+
+.skills_icons {
+  display: flex;
+  flex-direction: row;
+  font-size: 10vh;
+  text-align: center;
+  justify-content: center;
+  background-color: #3573a3;
+}
+
+.skills_icons__child {
+  padding: 1.5vh;
+}
+
+.skills_img_icons {
+  padding: 10px;
+  flex: 15%;
+}
+
+@media (max-width: 952px) {
+  .skills_icons {
+    flex-direction: column;
+  }
+}
+
+.skills_img_icons {
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+
+  .devicon-cplusplus-line-wordmark {
+    color: rgb(209, 208, 208);
+    font-size: 8vh;
+  }
+
+  .devicon-python-plain-wordmark {
+    color: rgb(209, 208, 208);
+    font-size: 8vh;
+  }
+
+  .devicon-git-plain-wordmark {
+    color: rgb(209, 208, 208);
+    font-size: 8vh;
+  }
+
+  .devicon-javascript-plain {
+    color: rgb(209, 208, 208);
+    font-size: 8vh;
+  }
+
+  .devicon-java-plain-wordmark {
+    color: rgb(209, 208, 208);
+    font-size: 8vh;
+  }
+
+  .devicon-css3-plain-wordmark {
+    color: rgb(209, 208, 208);
+    font-size: 8vh;
+  }
+
+  .devicon-react-original-wordmark {
+    color: rgb(209, 208, 208);
+    font-size: 8vh;
+  }
+
+  .devicon-mysql-plain-wordmark {
+    color: rgb(209, 208, 208);
+    font-size: 8vh;
+  }
+
+  .devicon-html5-plain-wordmark {
+    color: rgb(209, 208, 208);
+    font-size: 8vh;
+  }
+
+ /*  end of Skills section */
+
+
+/* ---------------Project section------------ */
+
+.project-section {
+  text-align: center;
+  font-family: Sora;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 3.5%;
+}
+
+.project__heading-container {
+  text-align: center;
+  font-family: Sora;
+  padding: 1.5%;
+  font-size: 3vh;
+  font-weight: bold;
+  color: #3573a3;
+}
+
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 2vh;
+  text-align: center;
+}
+
+.flex-project {
+  flex: 25%;
+  height: 50vh;
+  margin: 1.75vh;
+  border: 2px solid #3573a3;
+  padding: 2.5vh;
+}
+
+.flex-project-intro__heading {
+  padding-top: 2.5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-weight: 900;
+  font-size: larger;
+}
+
+.flex-project-intro {
+  padding-top: 2.5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 952px) {
+  .project-container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 952px) {
+  .project-container {
+    flex-direction: column;
+  }
+}
+
+span + span {
+  margin-left: 2vh;
+}
+
+/* end of Project section */
+
+
+/* -----------Social Media Icons-------------- */
+
+  .fa {
+    padding: 2vh;
+    font-size: 3vh;
+    width: 2.5vw;
+    text-align: center;
+    text-decoration: none;
+    margin: 0vw 2vw;
+    border-radius: 10%;
+  }
+
+  .fa:hover {
+    opacity: 0.5;
+}
+
+.fa-twitter {
+  /* background: #55ACEE; */
+  color: #55ACEE;
+}
+
+.fa-google {
+    color: #dd4b39;
+}
+
+.fa-instagram {
+    color: adial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+
+.fa-linkedin {
+  /* background: #007bb5; */
+  color: #007bb5;
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-python {
+  background-color: black;
+}
+/* end of Social Media section */
+
+/* Footer section */
+
+.footer-container {
+  text-align: center;
+  font-family: Sora;
+}
+
+.footer__heading-container {
+  text-align: center;
+  font-family: Sora;
+  padding: 1.5%;
+  font-size: 3vh;
+  font-weight: bold;
+  color: #3573a3;
+}
+
+#left, #middle, #right {
+  display: inline-block; 
+  zoom: 1; 
+  vertical-align: top;
+}
+
+.footer-msg {
+  margin-top: 5vh;
+  padding: 2vh;
+  text-align: center;
+  color: rgb(209, 208, 208);
+  background: #3573a3;
+  font-size: 1.75vh;
+}
+
+@media (max-width: 952px) {
+  .footer-container {
+    flex-direction: column;
+  }
+}
+
+/* end of footer section */
+
+/* ------------scrollbar--------------- */
+
+::-webkit-scrollbar {
+
+  width: 0.75vw;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(232,232,232);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3573a3;
+}
+
+/* end of scrollbar */
+

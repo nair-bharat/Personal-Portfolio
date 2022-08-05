@@ -1,17 +1,16 @@
-import '../resources/style.css'
-import profile_pic from '../images/profile_pic.jpeg'
+import React from 'react';
 
+import pandas from '../images/profile/PANDA_IMG.png'
+import Intro from './intro';
 
 const Header = () => {
 
     return (
-        <div className="container-box">
-            <div className='image-container'>
-                <img className="image-shadow" src={profile_pic} width={130} height={210} alt="profile" />
+        <div className="header-container">
+            <div className="flex-header-img">
+                <img className="image-prop" src={pandas} width={200} height={200} alt="profile" />
             </div>
-            <div>
-                <h1>Hi there, I am <span class="text_name">Bharat Nair</span></h1>
-            </div>
+            <Intro />
         </div>
     );
 };

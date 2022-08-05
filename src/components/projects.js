@@ -9,8 +9,8 @@ const Project = () => {
 
     return(
         <div className='project-section'>
-            <div>
-                <h2>PROJECTS</h2>
+           <div className='project__heading-container'>
+                PROJECTS
             </div>
             <div className="project-container">
                 <div className="flex-project">

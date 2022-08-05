@@ -1,13 +1,13 @@
 import React from 'react';
 
-import '../resources/style.css'
-
 const Footer = () => {
 
     return(
         <div>
             <div className="footer-container">
-                <h2>CONTACT</h2>
+            <div className='footer__heading-container'>
+                CONTACT
+            </div>
                 <div>
                     <h2>
                         <a href="mailto:bnair624@gmail.com" className='fa fa-google'> </a>
@@ -26,7 +26,7 @@ const Footer = () => {
                 </h2>
             </div>
             <div className="footer-msg">
-                <h6>This website is still work in progress... Expect more content and updates!</h6>
+                <h6>The site is still work in progress... Expect more content and updates!</h6>
             </div>
         </div>
     );

@@ -1,35 +1,40 @@
 import React from 'react';
 
-import cpp_icon from '../images/cpp_icon2.png';
-import git_icon from '../images/git_icon.png';
-import c_icon from '../images/c_icon.png';
-import js_icon from '../images/js_icon.png';
-import react_icon from '../images/react_icon.png';
-import azure_devops from '../images/azure_devops.png';
-import apache_airflow from '../images/apache_airflow.png';
-import '../resources/style.css'
-
 const Skills = () => {
 
     return(
 
         <div className="skills-container">
-            <h2>SKILLS</h2>
+            <div className='skills__heading-container'>
+                SKILLS
+            </div>
             <div className="skills_icons">
-                <div className='skills_icons-child'>
-                    <img src={cpp_icon} width={75} height={75} alt="cpp" className="skills_img_icons" />
+                <div className="skills_icons__child">
+                    <i className="devicon-cplusplus-line-wordmark"></i>
                 </div>
-                <div className='skills_icons-child-temp'>
-                    <img src={c_icon} width={75} height={75} alt="c_icon" className="skills_img_icons" />
+                 <div className="skills_icons__child">
+                    <i className="devicon-java-plain-wordmark"></i> 
                 </div>
-                <div className='skills_icons-child'>
-                    <img src={git_icon} width={150} height={75} alt="git_icon" className="skills_img_icons" />
+                <div className="skills_icons__child">
+                    <i className="devicon-python-plain-wordmark"></i>
                 </div>
-                <div className='skills_icons-child-temp'>
-                    <img src={js_icon} width={60} height={75} alt="js_icon" className="skills_img_icons" />
+                <div className="skills_icons__child">
+                    <i className="devicon-html5-plain-wordmark"></i>
                 </div>
-                <div className='skills_icons-child'>
-                    <img src={react_icon} width={75} height={75} alt="react_icon" className="skills_img_icons" />
+                <div className="skills_icons__child">
+                    <i className="devicon-css3-plain-wordmark"></i>
+                </div>
+                <div className="skills_icons__child">
+                    <i className="devicon-javascript-plain"></i>
+                </div>
+                <div className="skills_icons__child">
+                    <i className="devicon-react-original-wordmark"></i>
+                </div>
+                <div className="skills_icons__child">
+                    <i className="devicon-mysql-plain-wordmark"></i>
+                </div>
+                 <div className="skills_icons__child">
+                    <i className="devicon-git-plain-wordmark"></i>
                 </div>
             </div>
             

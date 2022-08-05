@@ -6,12 +6,12 @@ const Intro = () => {
     return(
         <div className="flex-header-desc">
             <span>
-                Hey, I am Bharat Nair
+                Hey, I am <span className="flex-header-desc__name">Bharat Nair</span>
             </span>
             <div className="flex-header-desc__intro">
                 <Typewriter 
                     onInit={(typewriter)=> {
-                        typewriter.typeString("I am a Software Developer.").pauseFor(5000).deleteAll().typeString("Keen to learn new things.").pauseFor(5000).deleteAll().typeString("Let's connect.").start();
+                        typewriter.typeString("Software Developer.").pauseFor(5000).deleteAll().typeString("Music Lover.").pauseFor(5000).deleteAll().typeString("Tech Enthusiast.").pauseFor(5000).deleteAll().typeString("Let's connect.").start();
                         
                     }}
                 />

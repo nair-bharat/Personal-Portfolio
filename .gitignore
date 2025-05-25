@@ -1,4 +1,1 @@
-
-node_modules
-
-# git rm -r --cached .  - to remove cache
+// git ignore folders/files

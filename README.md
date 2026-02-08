@@ -2,4 +2,4 @@
 
 =================
 
-Rebuilding my portfolio website with JS, HTML, CSS
+Portfolio website with JS, HTML, CSS

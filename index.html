@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal portfolio of Bharat Mohan Nair - Java Full Stack Developer showcasing skills, experience, and projects."
+    />
+    <meta
+      name="keywords"
+      content="Bharat Nair, Java Developer, Full Stack Developer, Portfolio, Spring Boot, JavaScript"
+    />
+    <meta name="author" content="Bharat Mohan Nair" />
+
+    <meta property="og:title" content="Bharat Nair | Developer Portfolio" />
+    <meta
+      property="og:description"
+      content="Java Full Stack Developer portfolio with projects and experience."
+    />
+    <meta property="og:type" content="website" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bharat Mohan Nair | Portfolio</title>
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- AOS Scroll Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h3>Bharat Nair</h3>
+
+      <!-- Desktop Nav -->
+      <nav class="desktop-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="bharat_nair_resume.pdf" download>Resume</a>
+      </nav>
+
+      <!-- Right Controls -->
+      <div style="display: flex; align-items: center; gap: 0.8rem">
+        <!-- Theme Icon -->
+        <button class="theme-icon" onclick="toggleTheme()" title="Toggle Theme">
+          <i class="fas fa-moon"></i>
+        </button>
+
+        <!-- Mobile Menu Button -->
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+      </div>
+
+      <!-- Mobile Dropdown -->
+      <div class="mobile-nav" id="mobileNav">
+        <a href="#about" onclick="closeMenu()">About</a>
+        <a href="#skills" onclick="closeMenu()">Skills</a>
+        <a href="#experience" onclick="closeMenu()">Experience</a>
+        <a href="#projects" onclick="closeMenu()">Projects</a>
+        <a href="resume.pdf" download>Resume</a>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" data-aos="fade-up" >
+      <h2>About Me</h2>
+      <div class="about">
+        <img src="profile.jpg" alt="My Photo" />
+
+        <div class="about-card">
+          <h3>Hello, I'm Bharat 👋</h3>
+          <p>
+            I'm a passionate Full Stack / Backend Developer with experience in
+            Java, JavaScript, and system design. I enjoy building scalable and
+            efficient applications.
+          </p>
+
+          <p style="margin-top: 1rem">
+            Currently focused on backend engineering, microservices, and cloud
+            technologies.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" data-aos="fade-up">
+      <h2>Skills</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Backend</h3>
+          <p>Java, Spring Boot, REST APIs</p>
+        </div>
+        <div class="project-card">
+          <h3>Frontend</h3>
+          <p>HTML, CSS, JavaScript, React</p>
+        </div>
+        <div class="project-card">
+          <h3>Database</h3>
+          <p>MySQL, PostgreSQL, Hibernate</p>
+        </div>
+        <div class="project-card">
+          <h3>Tools & Cloud</h3>
+          <p>Git, Docker, AWS (Basics)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" data-aos="fade-up">
+      <h2>Work Experience</h2>
+
+      <div class="timeline">
+        <!-- Item 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Dassault Systèmes</h3>
+            <p>Research and Development Engineer</p>
+            <p>Jan 2024 - Present</p>
+
+            <div class="skills">
+              <span class="skill">Java</span>
+              <span class="skill">JavaScript</span>
+              <span class="skill">REST APIs</span>
+              <span class="skill">JMeter</span>
+              <span class="skill">AGILE/SCRUM</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>LTIMindtree</h3>
+            <p>Senior Software Engineer</p>
+            <p>Nov 2022 - Jan 2024</p>
+
+            <div class="skills">
+              <span class="skill">React.js</span>
+              <span class="skill">JavaScript</span>
+              <span class="skill">Python</span>
+              <span class="skill">Bitbucket</span>
+              <span class="skill">JIRA</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Larsen & Toubro Infotech</h3>
+            <p>Software Engineer</p>
+            <p>Aug 2019 - Nov 2022</p>
+
+            <div class="skills">
+              <span class="skill">Python</span>
+              <span class="skill">Java</span>
+              <span class="skill">Spring boot</span>
+              <span class="skill">Apache Airflow</span>
+              <span class="skill">HTML</span>
+              <span class="skill">CSS</span>
+              <span class="skill">XML</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" data-aos="fade-up">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>B.Tech - Computer Science</h3>
+            <p>Mumbai University</p>
+            <p>2015 - 2019</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <!-- to be added later
+    <section data-aos="fade-up" id="projects">
+      <h2>Personal Projects</h2>
+
+      <div class="projects-grid">
+        
+        <div class="project-card">
+          <img src="project1.jpg" alt="Project 1" />
+          <div class="project-content">
+            <h3>Portfolio Website</h3>
+            <p>Personal portfolio built using HTML, CSS, and JavaScript.</p>
+
+            <div class="project-links">
+              <a
+                href="https://github.com/yourusername/portfolio"
+                target="_blank"
+                >GitHub</a
+              >
+              <a href="#" target="_blank">Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="project2.jpg" alt="Project 2" />
+          <div class="project-content">
+            <h3>Task Manager App</h3>
+            <p>Spring Boot + React based task management application.</p>
+
+            <div class="project-links">
+              <a
+                href="https://github.com/yourusername/task-manager"
+                target="_blank"
+                >GitHub</a
+              >
+              <a href="#" target="_blank">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2026 Bharat Mohan Nair | All Rights Reserved</p>
+    </footer>
+
+    <!-- Floating Social Icons -->
+    <div class="floating-social">
+      <a
+        href="https://www.linkedin.com/in/nairbharat/"
+        target="_blank"
+        title="LinkedIn"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <a
+        href="https://www.instagram.com/bharat.nair_24"
+        target="_blank"
+        title="Instagram"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a href="https://www.facebook.com/bharat.nair_24 target="_blank" title="Facebook"
+        ><i class="fab fa-facebook"></i
+      ></a>
+      <a href="mailto:bnair624@gmail.com" title="Gmail"
+        ><i class="fas fa-envelope"></i
+      ></a>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 900,
+        once: true,
+        easing: "ease-in-out",
+      });
+    </script>
+  </body>
+</html>
